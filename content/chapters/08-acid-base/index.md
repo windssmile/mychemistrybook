@@ -1,7 +1,7 @@
 ---
 title: "第8章 酸碱理论与酸碱平衡"
 chapter: 8
-status: in-progress
+status: cross-reviewed
 estimated_core_time: "6个核心单元"
 ---
 
@@ -15,18 +15,24 @@ estimated_core_time: "6个核心单元"
 
 ### 必须掌握
 
-- 1.6：浓度、溶液混合、电解质和净离子方程式；
-- 4.1～4.6：键极性、Lewis结构、形式电荷、共振和分子结构；
-- 7.4：平衡常数和活度近似；
-- 7.5：反应商、自由能和平衡方向；
-- 7.6：ICE表、物料守恒和合理近似；
+- [1.6](../01-chemical-language/01-06-solutions-concentration-aqueous-reactions.md)：
+  浓度、溶液混合、电解质和净离子方程式；
+- [第4章](../04-chemical-bonding/index.md)：键极性、Lewis结构、形式电荷、共振和
+  分子结构；
+- [7.4](../07-kinetics-equilibrium/07-04-dynamic-equilibrium-activity-constant.md)：
+  平衡常数和活度近似；
+- [7.5](../07-kinetics-equilibrium/07-05-reaction-quotient-gibbs-shift.md)：
+  反应商、自由能和平衡方向；
+- [7.6](../07-kinetics-equilibrium/07-06-equilibrium-composition-multiple.md)：
+  ICE表、物料守恒和合理近似；
 - 数学补给站：指数、对数和一元二次方程。
 
 ### 建议熟悉
 
-- 3.2～3.4：原子与离子大小、电负性和周期趋势；
-- 5.1～5.2：氢键、极性和溶剂化；
-- 6.5：Gibbs自由能和自发性。
+- [第3章](../03-periodic-law/index.md)：原子与离子大小、电负性和周期趋势；
+- [第5章](../05-intermolecular-solids/index.md)：氢键、极性和溶剂化；
+- [6.5](../06-thermochemistry-thermodynamics/06-05-gibbs-spontaneity.md)：
+  Gibbs自由能和自发性。
 
 ## 本章学习成果
 
@@ -48,11 +54,12 @@ estimated_core_time: "6个核心单元"
 | 单元 | 标题 | 状态 |
 |---|---|---|
 | 8.1 | [酸碱模型、结构与溶剂](./08-01-models-structure-solvent.md) | 初稿完成 |
-| 8.2 | 水的自偶电离与强酸强碱 | 待编写 |
-| 8.3 | 弱酸弱碱与近似 | 待编写 |
-| 8.4 | 多元酸、盐水解与物种分布 | 待编写 |
-| 8.5 | 缓冲溶液 | 待编写 |
-| 8.6 | 酸碱滴定与综合判断 | 待编写 |
+| 8.2 | [水的自偶电离与强酸强碱](./08-02-water-strong-acid-base.md) | 初稿完成 |
+| 8.3 | [弱酸弱碱与近似](./08-03-weak-acid-base-approximations.md) | 初稿完成 |
+| 8.4 | [多元酸、盐水解与物种分布](./08-04-polyprotic-salt-hydrolysis-speciation.md) | 初稿完成 |
+| 8.5 | [缓冲溶液](./08-05-buffer-solutions.md) | 初稿完成 |
+| 8.6 | [酸碱滴定与综合判断](./08-06-acid-base-titration.md) | 初稿完成 |
+| 章末 | [知识地图、综合练习与章节测验](./chapter-review.md) | 已完成并章内复核 |
 
 ## 本章不负责
 
@@ -63,4 +70,5 @@ estimated_core_time: "6个核心单元"
 - 高离子强度溶液的完整活度校正；
 - 非水溶剂和超强酸的系统理论。
 
-提高和进阶入口将在对应核心概念建立后单独提供。
+8.1至8.6核心单元与章末复习已完成；第9章完成后又回看了pH、物种分布、缓冲容量和
+酸碱—沉淀耦合接口。第11章完成后仍需复核配体质子化接口。

@@ -44,16 +44,19 @@ level: core
 
 ### 必须掌握
 
-- Lewis结构、孤电子对和形式电荷；
-- 键极性和电负性；
-- 平衡反应和反应方向；
-- 常见离子和净离子方程式。
+- [第4章](../04-chemical-bonding/index.md)的Lewis结构、孤电子对、形式电荷和键极性；
+- [第3章](../03-periodic-law/index.md)的电负性；
+- [7.4](../07-kinetics-equilibrium/07-04-dynamic-equilibrium-activity-constant.md)和
+  [7.5](../07-kinetics-equilibrium/07-05-reaction-quotient-gibbs-shift.md)的平衡与
+  反应方向；
+- [1.6](../01-chemical-language/01-06-solutions-concentration-aqueous-reactions.md)的
+  常见离子和净离子方程式。
 
 ### 建议熟悉
 
 - 共振；
 - 离子半径和极化性；
-- 分子间作用力与溶剂化。
+- [第5章](../05-intermolecular-solids/index.md)的分子间作用力与溶剂化。
 
 ### 3分钟诊断
 

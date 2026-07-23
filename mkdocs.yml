@@ -45,9 +45,159 @@ nav:
   - 首页: index.md
   - 开始学习:
       - 课程说明: course-guide.md
+      - 第0章 课程导学与学习诊断:
+          - 本章导学: chapters/00-orientation/index.md
+          - 0.1 无机化学的地图：从电子到材料: chapters/00-orientation/00-01-map-electrons-to-materials.md
+          - 0.2 自学系统与入门诊断: chapters/00-orientation/00-02-self-study-diagnostic.md
+          - 第0章复习: chapters/00-orientation/chapter-review.md
+      - 第1章 化学语言、化学计量、气体与溶液:
+          - 本章导学: chapters/01-chemical-language/index.md
+          - 1.1 物质、化学式与无机物命名: chapters/01-chemical-language/01-01-substances-formulas-naming.md
+          - 1.2 摩尔：连接粒子与宏观测量: chapters/01-chemical-language/01-02-mole-particles-mass.md
+          - 1.3 方程式、反应计量与反应进度: chapters/01-chemical-language/01-03-equations-stoichiometry-extent.md
+          - 1.4 限量试剂、纯度与产率: chapters/01-chemical-language/01-04-limiting-purity-yield.md
+          - 1.5 理想气体与分压: chapters/01-chemical-language/01-05-ideal-gas-partial-pressure.md
+          - 1.6 溶液、浓度与水溶液反应: chapters/01-chemical-language/01-06-solutions-concentration-aqueous-reactions.md
+          - 第1章复习: chapters/01-chemical-language/chapter-review.md
+      - 第2章 原子结构与电子排布:
+          - 本章导学: chapters/02-atomic-structure/index.md
+          - 2.1 光子与原子光谱: chapters/02-atomic-structure/02-01-photons-atomic-spectra.md
+          - 2.2 氢原子的玻尔模型: chapters/02-atomic-structure/02-02-bohr-model-hydrogen.md
+          - 2.3 物质波与不确定性: chapters/02-atomic-structure/02-03-matter-waves-uncertainty.md
+          - 2.4 波函数、轨道与量子数: chapters/02-atomic-structure/02-04-wavefunctions-orbitals-quantum-numbers.md
+          - 2.5 轨道形状、节点与径向分布: chapters/02-atomic-structure/02-05-orbital-shapes-nodes-radial-distribution.md
+          - 2.6 多电子原子、电子排布与磁性: chapters/02-atomic-structure/02-06-electron-configurations-magnetism.md
+          - 第2章复习: chapters/02-atomic-structure/chapter-review.md
+      - 第3章 元素周期律:
+          - 本章导学: chapters/03-periodic-law/index.md
+          - 3.1 屏蔽、穿透与有效核电荷: chapters/03-periodic-law/03-01-shielding-penetration-effective-nuclear-charge.md
+          - 3.2 原子半径与离子半径: chapters/03-periodic-law/03-02-atomic-ionic-radii.md
+          - 3.3 电离能、电子亲和能与电负性: chapters/03-periodic-law/03-03-ionization-affinity-electronegativity.md
+          - 3.4 周期性预测：金属性与氧化态: chapters/03-periodic-law/03-04-periodic-prediction-metallicity-oxidation-states.md
+          - 第3章复习: chapters/03-periodic-law/chapter-review.md
+      - 第4章 化学键与分子结构:
+          - 本章导学: chapters/04-chemical-bonding/index.md
+          - 4.1 化学键、键能与键的极性: chapters/04-chemical-bonding/04-01-bonds-energy-polarity.md
+          - 4.2 Lewis结构、形式电荷与共振: chapters/04-chemical-bonding/04-02-lewis-formal-charge-resonance.md
+          - 4.3 八隅体规则的适用范围: chapters/04-chemical-bonding/04-03-octet-rule-scope.md
+          - 4.4 VSEPR与分子几何: chapters/04-chemical-bonding/04-04-vsepr-molecular-geometry.md
+          - 4.5 键偶极、分子极性与结构证据: chapters/04-chemical-bonding/04-05-dipoles-molecular-polarity-evidence.md
+          - 4.6 价键模型、杂化与多重键: chapters/04-chemical-bonding/04-06-valence-bond-hybridization-multiple-bonds.md
+          - 4.7 同核双原子分子的分子轨道: chapters/04-chemical-bonding/04-07-homonuclear-diatomic-molecular-orbitals.md
+          - 4.8 异核成键、离域与模型选择: chapters/04-chemical-bonding/04-08-heteronuclear-delocalization-model-choice.md
+          - 第4章复习: chapters/04-chemical-bonding/chapter-review.md
+      - 第5章 分子间作用力、晶体与固体基础:
+          - 本章导学: chapters/05-intermolecular-solids/index.md
+          - 5.1 分子间作用力: chapters/05-intermolecular-solids/05-01-intermolecular-forces.md
+          - 5.2 从作用力到宏观性质: chapters/05-intermolecular-solids/05-02-forces-to-macroscopic-properties.md
+          - 5.3 晶格、晶胞与密堆积: chapters/05-intermolecular-solids/05-03-lattice-unit-cell-close-packing.md
+          - 5.4 离子晶体结构: chapters/05-intermolecular-solids/05-04-ionic-crystal-structures.md
+          - 5.5 离子晶体稳定性与晶格能: chapters/05-intermolecular-solids/05-05-lattice-stability-energy.md
+          - 5.6 固体类型、缺陷与能带入门: chapters/05-intermolecular-solids/05-06-solid-types-defects-bands.md
+          - 第5章复习: chapters/05-intermolecular-solids/chapter-review.md
+      - 第6章 热化学与化学热力学基础:
+          - 本章导学: chapters/06-thermochemistry-thermodynamics/index.md
+          - 6.1 系统、状态、热、功与内能: chapters/06-thermochemistry-thermodynamics/06-01-system-state-heat-work-internal-energy.md
+          - 6.2 焓、热容与量热: chapters/06-thermochemistry-thermodynamics/06-02-enthalpy-heat-capacity-calorimetry.md
+          - 6.3 Hess定律、生成焓与Born–Haber循环: chapters/06-thermochemistry-thermodynamics/06-03-hess-formation-born-haber.md
+          - 6.4 熵与变化方向: chapters/06-thermochemistry-thermodynamics/06-04-entropy-direction.md
+          - 6.5 Gibbs自由能与自发性: chapters/06-thermochemistry-thermodynamics/06-05-gibbs-spontaneity.md
+          - 6.6 温度、耦合与热力学边界: chapters/06-thermochemistry-thermodynamics/06-06-temperature-coupling-boundaries.md
+          - 第6章复习: chapters/06-thermochemistry-thermodynamics/chapter-review.md
+      - 第7章 化学动力学与化学平衡:
+          - 本章导学: chapters/07-kinetics-equilibrium/index.md
+          - 7.1 反应速率、速率方程与级数: chapters/07-kinetics-equilibrium/07-01-rate-law-order.md
+          - 7.2 积分速率方程与半衰期: chapters/07-kinetics-equilibrium/07-02-integrated-rate-half-life.md
+          - 7.3 温度、机理与催化: chapters/07-kinetics-equilibrium/07-03-temperature-mechanism-catalysis.md
+          - 7.4 动态平衡、活度与平衡常数: chapters/07-kinetics-equilibrium/07-04-dynamic-equilibrium-activity-constant.md
+          - 7.5 反应商、自由能与平衡移动: chapters/07-kinetics-equilibrium/07-05-reaction-quotient-gibbs-shift.md
+          - 7.6 平衡组成与多重平衡策略: chapters/07-kinetics-equilibrium/07-06-equilibrium-composition-multiple.md
+          - 第7章复习: chapters/07-kinetics-equilibrium/chapter-review.md
       - 第8章 酸碱理论与酸碱平衡:
           - 本章导学: chapters/08-acid-base/index.md
           - 8.1 酸碱模型、结构与溶剂: chapters/08-acid-base/08-01-models-structure-solvent.md
+          - 8.2 水的自偶电离与强酸强碱: chapters/08-acid-base/08-02-water-strong-acid-base.md
+          - 8.3 弱酸弱碱与近似: chapters/08-acid-base/08-03-weak-acid-base-approximations.md
+          - 8.4 多元酸、盐水解与物种分布: chapters/08-acid-base/08-04-polyprotic-salt-hydrolysis-speciation.md
+          - 8.5 缓冲溶液: chapters/08-acid-base/08-05-buffer-solutions.md
+          - 8.6 酸碱滴定与综合判断: chapters/08-acid-base/08-06-acid-base-titration.md
+          - 第8章复习: chapters/08-acid-base/chapter-review.md
+      - 第9章 沉淀—溶解平衡:
+          - 本章导学: chapters/09-precipitation-equilibrium/index.md
+          - 9.1 溶解度、溶度积与饱和: chapters/09-precipitation-equilibrium/09-01-solubility-ksp-saturation.md
+          - 9.2 离子积、同离子与pH效应: chapters/09-precipitation-equilibrium/09-02-ion-product-common-ion-ph.md
+          - 9.3 分步沉淀、溶解与转化: chapters/09-precipitation-equilibrium/09-03-fractional-precipitation-conversion.md
+          - 9.4 沉淀与酸碱、副反应的耦合: chapters/09-precipitation-equilibrium/09-04-coupled-equilibria.md
+          - 第9章复习: chapters/09-precipitation-equilibrium/chapter-review.md
+      - 第10章 氧化还原与电化学:
+          - 本章导学: chapters/10-redox-electrochemistry/index.md
+          - 10.1 氧化数、半反应与配平: chapters/10-redox-electrochemistry/10-01-oxidation-state-half-reaction-balancing.md
+          - 10.2 原电池、电极与标准电势: chapters/10-redox-electrochemistry/10-02-galvanic-cell-electrode-potential.md
+          - 10.3 电势、自由能与平衡常数: chapters/10-redox-electrochemistry/10-03-potential-gibbs-equilibrium.md
+          - 10.4 Nernst方程与实际条件: chapters/10-redox-electrochemistry/10-04-nernst-nonstandard.md
+          - 10.5 电解、化学电源与腐蚀: chapters/10-redox-electrochemistry/10-05-electrolysis-batteries-corrosion.md
+          - 10.6 Latimer图、Frost图与歧化: chapters/10-redox-electrochemistry/10-06-latimer-frost-disproportionation.md
+          - 第10章复习: chapters/10-redox-electrochemistry/chapter-review.md
+      - 第11章 配位化学基础:
+          - 本章导学: chapters/11-coordination-chemistry/index.md
+          - 11.1 配位实体、配体与命名: chapters/11-coordination-chemistry/11-01-entities-ligands-nomenclature.md
+          - 11.2 配位几何与异构: chapters/11-coordination-chemistry/11-02-geometry-isomerism.md
+          - 11.3 配位平衡、形成常数与螯合: chapters/11-coordination-chemistry/11-03-formation-constants-chelation.md
+          - 11.4 软硬酸碱与选择性: chapters/11-coordination-chemistry/11-04-hsab-selectivity.md
+          - 11.5 晶体场分裂与配位几何: chapters/11-coordination-chemistry/11-05-crystal-field-geometry.md
+          - 11.6 自旋、稳定性、颜色与磁性: chapters/11-coordination-chemistry/11-06-spin-stability-color-magnetism.md
+          - 第11章复习: chapters/11-coordination-chemistry/chapter-review.md
+      - 第12章 氢、碱金属与碱土金属:
+          - 本章导学: chapters/12-hydrogen-s-block/index.md
+          - 12.1 氢、同位素与氢化物: chapters/12-hydrogen-s-block/12-01-hydrogen-isotopes-hydrides.md
+          - 12.2 s区周期趋势、单质与制备: chapters/12-hydrogen-s-block/12-02-s-block-trends-elements-preparation.md
+          - 12.3 氧化物、过氧化物、超氧化物与氢氧化物: chapters/12-hydrogen-s-block/12-03-oxides-peroxides-superoxides-hydroxides.md
+          - 12.4 盐类、溶解性与Li、Be的特殊性: chapters/12-hydrogen-s-block/12-04-salts-solubility-li-be.md
+          - 第12章复习: chapters/12-hydrogen-s-block/chapter-review.md
+      - 第13章 硼族与碳族:
+          - 本章导学: chapters/13-boron-carbon-groups/index.md
+          - 13.1 第13、14族趋势与惰性电子对: chapters/13-boron-carbon-groups/13-01-trends-inert-pair.md
+          - 13.2 硼、缺电子成键与硼化合物: chapters/13-boron-carbon-groups/13-02-boron-electron-deficient.md
+          - 13.3 铝：两性、配位与冶炼原理: chapters/13-boron-carbon-groups/13-03-aluminum-amphoterism-electrolysis.md
+          - 13.4 碳的同素异形体、氧化物与碳酸盐: chapters/13-boron-carbon-groups/13-04-carbon-allotropes-oxides-carbonates.md
+          - 13.5 硅、硅酸盐与Sn、Pb: chapters/13-boron-carbon-groups/13-05-silicon-silicates-tin-lead.md
+          - 第13章复习: chapters/13-boron-carbon-groups/chapter-review.md
+      - 第14章 氮族与氧族:
+          - 本章导学: chapters/14-nitrogen-oxygen-groups/index.md
+          - 14.1 第15、16族趋势：多重键与多氧化态: chapters/14-nitrogen-oxygen-groups/14-01-trends-multiple-bonds-oxidation-states.md
+          - 14.2 N₂、氨、铵盐与氮化物: chapters/14-nitrogen-oxygen-groups/14-02-nitrogen-ammonia-ammonium-nitrides.md
+          - 14.3 氮氧化物、硝酸与氮循环: chapters/14-nitrogen-oxygen-groups/14-03-nitrogen-oxides-nitric-acid-cycle.md
+          - 14.4 磷及较重氮族元素: chapters/14-nitrogen-oxygen-groups/14-04-phosphorus-heavier-pnictogens.md
+          - 14.5 O₂、O₃与过氧化物: chapters/14-nitrogen-oxygen-groups/14-05-oxygen-ozone-peroxides.md
+          - 14.6 硫、硫化物、氧化物与含氧酸: chapters/14-nitrogen-oxygen-groups/14-06-sulfur-sulfides-oxides-oxoacids.md
+          - 章末复习: chapters/14-nitrogen-oxygen-groups/chapter-review.md
+      - 第15章 卤素与稀有气体:
+          - 本章导学: chapters/15-halogens-noble-gases/index.md
+          - 15.1 卤素单质与氧化性: chapters/15-halogens-noble-gases/15-01-halogen-elements-oxidizing-power.md
+          - 15.2 卤化氢、氢卤酸与卤化物: chapters/15-halogens-noble-gases/15-02-hydrogen-halides-hydrohalic-acids-halides.md
+          - 15.3 卤素含氧酸、互卤化物与多卤离子: chapters/15-halogens-noble-gases/15-03-oxoacids-interhalogens-polyhalides.md
+          - 15.4 稀有气体化学与“超价”模型: chapters/15-halogens-noble-gases/15-04-noble-gas-chemistry-hypervalent-models.md
+          - 章末复习: chapters/15-halogens-noble-gases/chapter-review.md
+      - 第16章 过渡元素化学:
+          - 本章导学: chapters/16-transition-elements/index.md
+          - 16.1 d区总论：氧化态、配位、颜色与催化: chapters/16-transition-elements/16-01-d-block-overview-oxidation-coordination-color-catalysis.md
+          - 16.2 Ti与V：早期过渡金属: chapters/16-transition-elements/16-02-titanium-vanadium.md
+          - 16.3 Cr与Mn：含氧物种和强氧化剂: chapters/16-transition-elements/16-03-chromium-manganese-oxo-oxidants.md
+          - 16.4 Fe、Co与Ni：水溶液、配位和催化: chapters/16-transition-elements/16-04-iron-cobalt-nickel.md
+          - 16.5 Cu与Ag：配位、沉淀与歧化: chapters/16-transition-elements/16-05-copper-silver.md
+          - 16.6 Zn、Cd、Hg与d区反应网络: chapters/16-transition-elements/16-06-zinc-cadmium-mercury-networks.md
+          - 章末复习: chapters/16-transition-elements/chapter-review.md
+      - 第17章 镧系、锕系与现代无机化学展望:
+          - 本章导学: chapters/17-f-block-modern-inorganic/index.md
+          - 17.1 f区概览与现代无机化学入口: chapters/17-f-block-modern-inorganic/17-01-f-block-modern-inorganic-entry.md
+          - 章末复习: chapters/17-f-block-modern-inorganic/chapter-review.md
+      - 第18章 综合问题、知识地图与后续学习:
+          - 本章导学: chapters/18-integration-learning-paths/index.md
+          - 18.1 陌生物种的结构—性质预测: chapters/18-integration-learning-paths/18-01-unknown-species-structure-property.md
+          - 18.2 热力学、动力学与反应路径: chapters/18-integration-learning-paths/18-02-thermodynamics-kinetics-pathways.md
+          - 18.3 酸碱、沉淀、氧化还原与配位综合: chapters/18-integration-learning-paths/18-03-coupled-aqueous-equilibria.md
+          - 18.4 从实验数据到化学解释: chapters/18-integration-learning-paths/18-04-data-to-explanation-learning-paths.md
+          - 章末复习: chapters/18-integration-learning-paths/chapter-review.md
 
 plugins:
   - search:
