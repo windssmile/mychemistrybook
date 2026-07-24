@@ -5,3 +5,4 @@ __pycache__/
 site/
 .playwright-cli/
 output/
+.superpowers/
