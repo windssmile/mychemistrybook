@@ -30,9 +30,9 @@
 Run:
 
 ```bash
-python3 -m venv /private/tmp/mychemistrybook-zensical
-/private/tmp/mychemistrybook-zensical/bin/python -m pip install --upgrade pip
-/private/tmp/mychemistrybook-zensical/bin/python -m pip install zensical==0.0.51
+/opt/homebrew/bin/python3.13 -m venv /private/tmp/mychemistrybook-zensical-py313
+/private/tmp/mychemistrybook-zensical-py313/bin/python -m pip install --upgrade pip
+/private/tmp/mychemistrybook-zensical-py313/bin/python -m pip install zensical==0.0.51
 ```
 
 Expected: the last command reports `Successfully installed zensical-0.0.51` and does not modify repository dependencies.
@@ -42,9 +42,8 @@ Expected: the last command reports `Successfully installed zensical-0.0.51` and 
 Run:
 
 ```bash
-rm -rf /private/tmp/mychemistrybook-zensical-site
 SITE_URL=http://127.0.0.1:8012/ \
-  /private/tmp/mychemistrybook-zensical/bin/zensical build --clean --site-dir /private/tmp/mychemistrybook-zensical-site
+  /private/tmp/mychemistrybook-zensical-py313/bin/zensical build --clean
 ```
 
 Expected: either a successful build, or a precise configuration error identifying the first unsupported Material-only key. Do not change configuration before saving the observed command output.
@@ -152,9 +151,9 @@ Run:
 rg -n '^zensical==0\.0\.51$' requirements.txt
 rg -n 'name: material|palette:|blue grey|material/weather' mkdocs.yml
 SITE_URL=http://127.0.0.1:8012/ \
-  /private/tmp/mychemistrybook-zensical/bin/zensical build --clean --site-dir /private/tmp/mychemistrybook-zensical-site
-test -f /private/tmp/mychemistrybook-zensical-site/index.html
-test -f /private/tmp/mychemistrybook-zensical-site/chapters/03-periodic-law/03-03-ionization-affinity-electronegativity/index.html
+  /private/tmp/mychemistrybook-zensical-py313/bin/zensical build --clean
+test -f site/index.html
+test -f site/chapters/03-periodic-law/03-03-ionization-affinity-electronegativity/index.html
 ```
 
 Expected: the first command prints one matching line; the second prints no matches; the build succeeds; both artifact checks exit `0`.
@@ -257,10 +256,9 @@ Expected: the first command prints no lines; the second prints each retained loc
 Run:
 
 ```bash
-rm -rf /private/tmp/mychemistrybook-zensical-site
 SITE_URL=http://127.0.0.1:8012/ \
-  /private/tmp/mychemistrybook-zensical/bin/zensical build --clean --site-dir /private/tmp/mychemistrybook-zensical-site
-rg -n 'home-grid|arithmatex|mathjax' /private/tmp/mychemistrybook-zensical-site/index.html
+  /private/tmp/mychemistrybook-zensical-py313/bin/zensical build --clean
+rg -n 'home-grid|arithmatex|mathjax' site/index.html
 ```
 
 Expected: the build succeeds and the generated homepage retains the custom card markup, formula markup, and MathJax asset reference.
@@ -284,7 +282,7 @@ Run:
 
 ```bash
 SITE_URL=http://127.0.0.1:8012/ \
-  /private/tmp/mychemistrybook-zensical/bin/zensical serve --dev-addr 127.0.0.1:8012
+  /private/tmp/mychemistrybook-zensical-py313/bin/zensical serve --dev-addr 127.0.0.1:8012
 ```
 
 Expected: the server reports that it is listening on `http://127.0.0.1:8012/`. Keep this process running while performing the next checks.
@@ -370,7 +368,7 @@ Run:
 rg -n 'Deploy Zensical|zensical build --clean|path: site' .github/workflows/pages.yml
 rg -n 'mkdocs build|Deploy MkDocs' .github/workflows/pages.yml
 SITE_URL=https://windssmile.github.io/mychemistrybook/ \
-  /private/tmp/mychemistrybook-zensical/bin/zensical build --clean
+  /private/tmp/mychemistrybook-zensical-py313/bin/zensical build --clean
 test -f site/index.html
 test -f site/chapters/03-periodic-law/03-03-ionization-affinity-electronegativity/index.html
 ```
@@ -396,7 +394,7 @@ Update the compatibility record's conclusion with the tested routes and final pa
 ```bash
 git diff --check
 SITE_URL=https://windssmile.github.io/mychemistrybook/ \
-  /private/tmp/mychemistrybook-zensical/bin/zensical build --clean
+  /private/tmp/mychemistrybook-zensical-py313/bin/zensical build --clean
 git status --short
 git add .github/workflows/pages.yml docs/superpowers/specs/zensical-modern-compatibility.md
 git commit -m "ci: publish Zensical site to GitHub Pages"
@@ -428,7 +426,7 @@ Run:
 ```bash
 rm -rf site
 SITE_URL=https://windssmile.github.io/mychemistrybook/ \
-  /private/tmp/mychemistrybook-zensical/bin/zensical build --clean
+  /private/tmp/mychemistrybook-zensical-py313/bin/zensical build --clean
 for path in \
   site/index.html \
   site/course-guide/index.html \
