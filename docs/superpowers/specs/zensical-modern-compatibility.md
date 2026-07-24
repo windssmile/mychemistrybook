@@ -21,3 +21,14 @@
 ## 结论
 
 `mkdocs.yml` 保留为正式配置；仅删除已证实不兼容的 Material 专属主题项。
+
+## 切换后验证
+
+- 生产 URL 构建：`SITE_URL=https://windssmile.github.io/mychemistrybook/ zensical build --clean`
+  完成且无问题；
+- 已检查路由：`/`、
+  `/chapters/03-periodic-law/03-03-ionization-affinity-electronegativity/`、
+  `/chapters/08-acid-base/08-01-models-structure-solvent/`；
+- 桌面与 390px 窄屏下，三个页面均无文档级水平溢出；首页三张课程卡片在窄屏为单列；
+- 站内导航后，首页有 2 个、3.3 有 96 个、8.1 有 196 个 MathJax `math` 元素；浏览器控制台
+  未记录错误。
