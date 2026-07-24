@@ -20,7 +20,7 @@
 
 ## 结论
 
-`mkdocs.yml` 保留为正式配置；仅删除已证实不兼容的 Material 专属主题项。
+`mkdocs.yml` 保留为正式配置；删除 Material 专属且不符合 Modern 默认设计的主题项。
 
 ## 切换后验证
 

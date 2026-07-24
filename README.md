@@ -10,7 +10,7 @@
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --requirement requirements.txt
-mkdocs serve
+zensical serve
 ```
 
 浏览器打开 <http://127.0.0.1:8000/>。
@@ -18,7 +18,7 @@ mkdocs serve
 ## 构建静态站点
 
 ```bash
-mkdocs build --strict
+zensical build --clean
 ```
 
 生成结果位于`site/`，该目录不提交到Git。
@@ -27,8 +27,8 @@ mkdocs build --strict
 
 仓库中的`.github/workflows/pages.yml`会在每次推送到`main`时：
 
-1. 安装固定版本的MkDocs和Material主题；
-2. 严格模式构建站点；
+1. 安装固定版本的Zensical；
+2. 清理缓存后构建站点；
 3. 上传`site/`产物；
 4. 部署到GitHub Pages。
 
