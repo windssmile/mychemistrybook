@@ -6,3 +6,4 @@ site/
 .playwright-cli/
 output/
 .superpowers/
+.worktrees/
